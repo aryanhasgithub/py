@@ -34,6 +34,15 @@ print("2nd letter is:",name[1])
 print("4th letter is:",name[3])
 print("sliced string:",name[0:3])
 
+x=int(input("enter x value"))
+y=int(input("enter y value"))
+
+temp=x
+x=y
+y=temp
+print(x)
+print(y)
+
 
 
 
