@@ -1,0 +1,6 @@
+file =open("hello.txt",'r')
+print(file.read())
+file.close()
+file = open("hello.txt", 'r')
+print(file.read(5))
+file.close()
